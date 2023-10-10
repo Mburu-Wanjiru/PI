@@ -105,4 +105,95 @@ print("Till the sun is in the sky.")
 print("As your bright and tiny spark")
 print("Lights the traveler in the dark,")
 print("Though I know not what you are,")
-print("Twinkle, twinkle, little star.")
+print("Twinkle, twinkle, little star.") 
+
+
+#10-10-2023
+#variables in python
+aa=234
+print(aa)
+bb=23.45
+print(bb)
+cc="jim"
+print(cc)
+#
+# Datatypes in python
+#types include -->int,floating,strings,booleans,none
+print("arithmetic operations --> +,-,*,/")
+a=16
+b=4
+print("a+b = ",a+b)
+### a+b =  20
+
+print("a-b = ",a-b)
+### a-b =  12
+
+print("a*b = ",a*b)
+### a*b =  64
+
+print("a/b = ",a/b)
+### a/b =  4.0
+
+
+
+#assignment operators
+print('assignment operators --> = , += , -= ')
+d=12
+c=16
+
+print('d =',d)
+### d = 12
+
+c+=d
+print('c+=d',  c)
+###c+=d 28
+
+c-=d
+print('c-=d',  c)
+### c-=d 16
+
+
+print('comparison operator --> == , > , < , >= ,<= , !=')
+e=25
+f=45
+
+print('e==f  ',e==f)
+### e==f   False
+
+print('e > f  ',  e>f)
+### e > f   False
+
+print('e < f  ', e<f)
+### e < f   True
+
+print('e >= f  ',e>=f )
+### e >= f   False
+
+print('e < = f  ' ,e<=f)
+### e < = f   True
+ 
+print('e != f  ', e!=f)
+### e != f   True
+
+
+print('Logical Operrators ---> and , or , not ')
+g=900
+h=105
+
+# and checks if all is true and responds with a truthy value
+# or checks a true value and returns it
+# not returns completely opposite of the given constant
+
+print('g==h and g>h ',g==h and g>h)
+### g==h and g>h  False
+
+print('g==h and g>h ',g==h or g>h)
+### g==h and g>h  True
+
+print('not g>h  ',not g>h)
+### not g>h   False
+
+
+
+
+
