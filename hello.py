@@ -213,3 +213,39 @@ sum=x+y+z
 print('Average = ', sum/3)
 
 
+
+### working with strings
+
+                                 # Slicing
+nam='James Mburu Wanjiru'
+print(nam[0])
+##J
+print(nam[0:3])
+##Jam
+print(nam[2:8])
+##mes Mb
+print(nam[1:9:1])
+## ames Mbu
+print(nam[0:10:2])
+## JmsMu
+print(nam[-1])
+## u
+print(nam[1:-3])
+## ames Mburu Wanj
+print(nam[1:-2:3])
+## asbuai
+print(nam[0:])
+## James Mburu Wanjiru
+print(nam[:7])
+## James M
+
+
+
+
+
+
+
+
+
+
+
