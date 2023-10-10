@@ -195,5 +195,21 @@ print('not g>h  ',not g>h)
 
 
 
+###A program to add two numbers
+i=int(input('input i '))
+j=int(input('input j '))
+print('i+j= ',i+j)
+
+### A program to see the remainder of a num that is divided by 2
+z=int(input('enter the number'))
+print('Rem Num',z % 2)
+
+### A program to find average of 3 inputs
+x=int(input('num i '))
+y=int(input('num ii'))
+v=int(input('num iii'))
+sum=x+y+z
+
+print('Average = ', sum/3)
 
 
