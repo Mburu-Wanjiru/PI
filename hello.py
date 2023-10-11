@@ -214,6 +214,8 @@ print('Average = ', sum/3)
 
 
 
+
+
 ### working with strings
 
                                  # Slicing
@@ -240,12 +242,48 @@ print(nam[:7])
 ## James M
 
 
+######## STRINGS FUNCTIONS  IN PYTHON
+print('..........LEN ()..........')
+#checks the length of a string
+jim='James Mburu Wanjiru'
+print(len(jim))
+# 19
+
+print('..........endswith ()    startswith()..........')
+#reference the arguements using string provided and returns a boolean
+mose='Moses Mbugua'
+print(mose.startswith('Mos'))
+# true
+print(mose.endswith('za'))
+# false
 
 
+print('......count ().............')
+# returns the number of occurence of named arguement
+kim='Peter Kimani'
+print(kim.count('e'))
+# 2
 
 
+print('..........capitalize ()..........')
+#this puts the 1st character to capital letters
+na='my name is Jim.'
+print(na.capitalize())
+# My name is Jim.
 
 
+print('..........find()..........')
+# checks the said arguement in a string and returns the the index of the first character.
+shosh='Grace Wamaitha mburu'
+print(shosh.find('mburu'))
+# 15
+
+
+print('..........replace()..........')
+#replace the said argument with the new word
+guka='James Mburu Mbugua'
+print(guka.replace('james','jim'))
+# jim Mburu Mbugua
 
 
 
