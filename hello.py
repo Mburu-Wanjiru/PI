@@ -286,4 +286,46 @@ print(guka.replace('james','jim'))
 # jim Mburu Mbugua
 
 
+print('..........in keyword..........')
+# checks the ekement is in a string ;;returns a boleam
+jimna='wanjiru james mburu'
+print('mburu' in jimna)
+# true
 
+
+print('..........not in ..........')
+# checks the said character in a string ;;returns boolean
+aaa='James  Mburu mbugua '
+print('mbugu' not in aaa)
+# true
+
+
+print('.......... upper()..........')
+# converts the whole string to upper case
+mose='moses mbugua wanjiru'
+print(mose.upper())
+# MOSES MBUGUA WANJIRU
+
+
+
+
+
+print('.......... lower()..........')
+# converts the whole string to LOWER case
+moses='MOSES MBUGUA WANJIRU'
+print(moses.lower())
+#  moses mbugua wanjiru
+
+
+print('.......... strip()..........')
+# removing un necessary white space
+mosess='   moses mbugua wanjiru    '
+print(mosess.strip())
+# moses mbugua wanjiru
+
+
+print('.......... split()..........')
+# puts each single strings to differnt strings
+mo='moses mbugua wanjiru'
+print(mo.split())
+ #['moses' ,'mbugua', 'wanjiru']
