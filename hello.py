@@ -329,3 +329,41 @@ print('.......... split()..........')
 mo='moses mbugua wanjiru'
 print(mo.split())
  #['moses' ,'mbugua', 'wanjiru']
+
+#project 1
+#to display  a good morning
+mburu=input('Enter your name')
+print('Good Afternoon',mburu)
+#  Good Afternoon mburu
+
+
+#project2
+namee=input('Enter your name')
+datee=input('enter the date')
+temparate=''' 
+Dear <name>\n\tI am delighted to invite you to my birthday ceremony.\nit will be hosted in kyu traina on date <date>.
+ '''
+print(temparate.replace('<name>',namee).replace('<date>'))
+
+
+
+## list in python
+#container used to store data.
+print('........indexing in list.........')
+l1=[7,3,5,3,1,2]
+print(l1[0])
+# 7
+print(l1[1])
+#3
+print(l1[2])
+#5
+print(l1[3])
+#3
+print(l1[4])
+#1
+print(l1[5])
+#2
+print(l1[0:4])
+# 7,3,5,3
+print(l1[70])
+#error
