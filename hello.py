@@ -367,3 +367,15 @@ print(l1[0:4])
 # 7,3,5,3
 print(l1[70])
 #error
+
+
+### List Method
+print('..........sort()..........')
+# arranges data in a list in asceding order
+list1=[9,5,6,4,2,8,9,1]
+list1.sort()
+print(list1)
+#
+
+
+print('..........reverse()..........')
